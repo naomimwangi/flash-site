@@ -14,9 +14,7 @@ $('li#functions').click(function () {
     $('#functions p').toggle('hidden');
 });
 
-$("li#return").click(function () {
-    $("#return p").toggle("hidden");
-});
+
 
 
 
