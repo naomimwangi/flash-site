@@ -1,17 +1,17 @@
-$('li#javascript').click (function(){
-    $('#javascript p').toggle ('hidden');
+$('#javascript').click (function(){
+    $('.hidden1').toggle ('hidden');
 });
-$('li#operators').click (function(){
-    $('#operators p').toggle ('hidden');
+$('#operators').click (function(){
+    $('.hidden2').toggle ('hidden');
 });
-$('li#strings').click(function () {
-    $('#strings p').toggle('hidden');
+$('#strings').click(function () {
+    $('.hidden3').toggle('hidden');
 });
-$('li#methods').click(function () {
-    $('#methods p').toggle('hidden');
+$('#methods').click(function () {
+    $('.hidden4').toggle('hidden');
 }); 
-$('li#functions').click(function () {
-    $('#functions p').toggle('hidden');
+$('#functions').click(function () {
+    $('.hidden5').toggle('hidden');
 });
 
 
